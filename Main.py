@@ -61,7 +61,7 @@ HTML_CONTENT: str = """
         #download-btn {
             position: fixed;
             bottom: 20px;
-            left: calc(50% + 750px);
+            left: calc(95%);
             transform: translateX(-50%);
             padding: 10px 20px;
             font-size: 16px;
@@ -156,3 +156,4 @@ def index():
 if __name__ == '__main__':
     webbrowser.open('http://127.0.0.1:5000')
     WebApplication.run(debug=True)
+    
